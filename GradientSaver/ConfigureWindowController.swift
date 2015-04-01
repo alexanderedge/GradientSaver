@@ -22,7 +22,6 @@
 //  THE SOFTWARE.
 
 import Cocoa
-import ScreenSaver
 
 let ConfigurationDidChangeNotificationName = "AGEGradientConfigurationDidChangeNotification"
 
