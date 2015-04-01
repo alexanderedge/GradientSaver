@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DEA664001A44398F00357CAB /* Gradient.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gradient.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA664001A44398F00357CAB /* GradientSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA664041A44398F00357CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEA6640E1A443AC300357CAB /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = GradientSaver/GradientView.swift; sourceTree = "<group>"; };
 		DEA6643B1A445AC600357CAB /* GradientSaverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientSaverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,7 +71,7 @@
 		DEA664011A44398F00357CAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEA664001A44398F00357CAB /* Gradient.saver */,
+				DEA664001A44398F00357CAB /* GradientSaver.saver */,
 				DEA6643B1A445AC600357CAB /* GradientSaverDemo.app */,
 			);
 			name = Products;
@@ -150,7 +150,7 @@
 			);
 			name = GradientSaver;
 			productName = GradientSaver;
-			productReference = DEA664001A44398F00357CAB /* Gradient.saver */;
+			productReference = DEA664001A44398F00357CAB /* GradientSaver.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 		DEA6643A1A445AC600357CAB /* GradientSaverDemo */ = {
@@ -349,7 +349,7 @@
 				INFOPLIST_FILE = GradientSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = Gradient;
+				PRODUCT_NAME = GradientSaver;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = saver;
 			};
@@ -365,7 +365,7 @@
 				INFOPLIST_FILE = GradientSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = Gradient;
+				PRODUCT_NAME = GradientSaver;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
