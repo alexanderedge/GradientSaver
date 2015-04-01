@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEA6640F1A443AC300357CAB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6640E1A443AC300357CAB /* GradientView.swift */; };
+		DEA664401A445AC700357CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6643F1A445AC700357CAB /* AppDelegate.swift */; };
+		DEA664421A445AC700357CAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA664411A445AC700357CAB /* Images.xcassets */; };
+		DEA664451A445AC700357CAB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA664431A445AC700357CAB /* MainMenu.xib */; };
+		DEA664581A445AE100357CAB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6640E1A443AC300357CAB /* GradientView.swift */; };
+		DEBF86BA1AACCFDE00E5770C /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF86B91AACCFDE00E5770C /* Defaults.swift */; };
+		DEBF86BB1AACCFE000E5770C /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF86B91AACCFDE00E5770C /* Defaults.swift */; };
+		DECE06D61AA35D7D00509832 /* ConfigureWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDABA311AA3592E0047E6E4 /* ConfigureWindowController.swift */; };
+		DEDABA181AA357770047E6E4 /* Configuration.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDABA171AA357770047E6E4 /* Configuration.xib */; };
+		DEDABA331AA35A460047E6E4 /* Configuration.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDABA171AA357770047E6E4 /* Configuration.xib */; };
+		DEE7F76B1AAE03B3008A28BB /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = DEE7F7691AAE03B3008A28BB /* thumbnail.png */; };
+		DEE7F76C1AAE03B3008A28BB /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEE7F76A1AAE03B3008A28BB /* thumbnail@2x.png */; };
+		DEF8AD451ACC5DD3008744A5 /* ConfigureWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDABA311AA3592E0047E6E4 /* ConfigureWindowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEA664001A44398F00357CAB /* Gradient.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gradient.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA664041A44398F00357CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA6640E1A443AC300357CAB /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = GradientSaver/GradientView.swift; sourceTree = "<group>"; };
+		DEA6643B1A445AC600357CAB /* GradientSaverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientSaverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA6643E1A445AC700357CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA6643F1A445AC700357CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEA664411A445AC700357CAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEA664441A445AC700357CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DEBF86B91AACCFDE00E5770C /* Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		DEDABA141AA356E10047E6E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DEDABA171AA357770047E6E4 /* Configuration.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Configuration.xib; sourceTree = "<group>"; };
+		DEDABA311AA3592E0047E6E4 /* ConfigureWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureWindowController.swift; sourceTree = "<group>"; };
+		DEE7F7691AAE03B3008A28BB /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		DEE7F76A1AAE03B3008A28BB /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA663FC1A44398F00357CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA664381A445AC600357CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA663F61A44398F00357CAB = {
+			isa = PBXGroup;
+			children = (
+				DEDABA141AA356E10047E6E4 /* README.md */,
+				DEDABA131AA3555A0047E6E4 /* GradientView */,
+				DEA664021A44398F00357CAB /* GradientSaver */,
+				DEA6643C1A445AC700357CAB /* GradientSaverDemo */,
+				DEA664011A44398F00357CAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA664011A44398F00357CAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA664001A44398F00357CAB /* Gradient.saver */,
+				DEA6643B1A445AC600357CAB /* GradientSaverDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA664021A44398F00357CAB /* GradientSaver */ = {
+			isa = PBXGroup;
+			children = (
+				DEDABA161AA3575E0047E6E4 /* Resources */,
+				DEA664031A44398F00357CAB /* Supporting Files */,
+				DEDABA311AA3592E0047E6E4 /* ConfigureWindowController.swift */,
+				DEBF86B91AACCFDE00E5770C /* Defaults.swift */,
+			);
+			path = GradientSaver;
+			sourceTree = "<group>";
+		};
+		DEA664031A44398F00357CAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEA664041A44398F00357CAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEA6643C1A445AC700357CAB /* GradientSaverDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6643F1A445AC700357CAB /* AppDelegate.swift */,
+				DEA664411A445AC700357CAB /* Images.xcassets */,
+				DEA664431A445AC700357CAB /* MainMenu.xib */,
+				DEA6643D1A445AC700357CAB /* Supporting Files */,
+			);
+			path = GradientSaverDemo;
+			sourceTree = "<group>";
+		};
+		DEA6643D1A445AC700357CAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6643E1A445AC700357CAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEDABA131AA3555A0047E6E4 /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6640E1A443AC300357CAB /* GradientView.swift */,
+			);
+			name = GradientView;
+			sourceTree = "<group>";
+		};
+		DEDABA161AA3575E0047E6E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEE7F7691AAE03B3008A28BB /* thumbnail.png */,
+				DEE7F76A1AAE03B3008A28BB /* thumbnail@2x.png */,
+				DEDABA171AA357770047E6E4 /* Configuration.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA663FF1A44398F00357CAB /* GradientSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA6640B1A44398F00357CAB /* Build configuration list for PBXNativeTarget "GradientSaver" */;
+			buildPhases = (
+				DEA663FB1A44398F00357CAB /* Sources */,
+				DEA663FC1A44398F00357CAB /* Frameworks */,
+				DEA663FE1A44398F00357CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientSaver;
+			productName = GradientSaver;
+			productReference = DEA664001A44398F00357CAB /* Gradient.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DEA6643A1A445AC600357CAB /* GradientSaverDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA664521A445AC700357CAB /* Build configuration list for PBXNativeTarget "GradientSaverDemo" */;
+			buildPhases = (
+				DEA664371A445AC600357CAB /* Sources */,
+				DEA664381A445AC600357CAB /* Frameworks */,
+				DEA664391A445AC600357CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientSaverDemo;
+			productName = GradientSaverDemo;
+			productReference = DEA6643B1A445AC600357CAB /* GradientSaverDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA663F71A44398F00357CAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alexander Edge Ltd.";
+				TargetAttributes = {
+					DEA663FF1A44398F00357CAB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DEA6643A1A445AC600357CAB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DEA663FA1A44398F00357CAB /* Build configuration list for PBXProject "GradientSaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA663F61A44398F00357CAB;
+			productRefGroup = DEA664011A44398F00357CAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA663FF1A44398F00357CAB /* GradientSaver */,
+				DEA6643A1A445AC600357CAB /* GradientSaverDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA663FE1A44398F00357CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE7F76B1AAE03B3008A28BB /* thumbnail.png in Resources */,
+				DEDABA181AA357770047E6E4 /* Configuration.xib in Resources */,
+				DEE7F76C1AAE03B3008A28BB /* thumbnail@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA664391A445AC600357CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA664421A445AC700357CAB /* Images.xcassets in Resources */,
+				DEDABA331AA35A460047E6E4 /* Configuration.xib in Resources */,
+				DEA664451A445AC700357CAB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA663FB1A44398F00357CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF8AD451ACC5DD3008744A5 /* ConfigureWindowController.swift in Sources */,
+				DEBF86BA1AACCFDE00E5770C /* Defaults.swift in Sources */,
+				DEA6640F1A443AC300357CAB /* GradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA664371A445AC600357CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECE06D61AA35D7D00509832 /* ConfigureWindowController.swift in Sources */,
+				DEBF86BB1AACCFE000E5770C /* Defaults.swift in Sources */,
+				DEA664581A445AE100357CAB /* GradientView.swift in Sources */,
+				DEA664401A445AC700357CAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEA664431A445AC700357CAB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA664441A445AC700357CAB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA664091A44398F00357CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DEA6640A1A44398F00357CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DEA6640C1A44398F00357CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = GradientSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = Gradient;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		DEA6640D1A44398F00357CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = GradientSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = Gradient;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		DEA664531A445AC700357CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GradientSaverDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEA664541A445AC700357CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GradientSaverDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA663FA1A44398F00357CAB /* Build configuration list for PBXProject "GradientSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA664091A44398F00357CAB /* Debug */,
+				DEA6640A1A44398F00357CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA6640B1A44398F00357CAB /* Build configuration list for PBXNativeTarget "GradientSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA6640C1A44398F00357CAB /* Debug */,
+				DEA6640D1A44398F00357CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA664521A445AC700357CAB /* Build configuration list for PBXNativeTarget "GradientSaverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA664531A445AC700357CAB /* Debug */,
+				DEA664541A445AC700357CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA663F71A44398F00357CAB /* Project object */;
+}
