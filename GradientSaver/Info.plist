@@ -23,6 +23,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2014 Alexander Edge Ltd. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
-	<string>GradientView</string>
+	<string>GradientSaver.GradientView</string>
 </dict>
 </plist>
